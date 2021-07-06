@@ -10,9 +10,9 @@
 
 <body>
     <!--Navigation Bar-->
-    <nav class="bg-indigo-900 h-16 xl:h-20">
-        <span
-            class=" float-left mt-4 ml-2 text-2xl mr-8 font-semibold text-white xl:text-4xl xl:mt-5 xl:ml-10">hopCampus</span>
+    <nav class="bg-blue-900 h-16 xl:h-20 rounded-b">
+        <span class=" float-left mt-4 ml-2 text-2xl mr-8 font-semibold text-gray-100 xl:text-4xl xl:mt-5 xl:ml-10">hop<p
+                class="text-blue-300 inline">Campus</p></span>
         <span class="float-right mt-2 mr-2 sm:float-right sm:mt-3 xl:mt-3">
             <ul class="inline text-white xl:text-2xl ">
                 <li class="hidden sm:inline px-5 "><a href="#">Home</a></li>
@@ -29,7 +29,7 @@
     <main>
 
         <!--Section-a-->
-        <div class="relative h-auto bg-indigo-800 text-white py-14 xl:py-28">
+        <div class="relative bg-gray-100 h-auto py-14 xl:py-28">
             <h1 class="text-center text-2xl sm:text-3xl xl:text-5xl xl:py-10">Everything you need to become <br> a
                 software
                 developer!</h1>
@@ -43,13 +43,13 @@
             </ul>
             <div class="mt-6 text-center xl:mt-7">
                 <a href="#"
-                    class="bg-white text-indigo-800 px-6 py-2 rounded-md hover:bg-gray-300 sm:text-lg xl:text-2xl">Sign
+                    class="bg-blue-900 text-gray-100 px-6 py-2 rounded-md hover:bg-blue-800 sm:text-lg xl:text-2xl">Sign
                     Up for free!</a>
             </div>
         </div>
 
         <!--Section-b-->
-        <div class="bg-indigo-900 text-white py-10 sm:grid sm:grid-cols-2 ">
+        <div class="bg-gray-200 py-10 sm:grid sm:grid-cols-2 ">
             <div class="h-40 sm:h-60 xl:h-96"><img src="./images/employee.png"
                     class="h-40 w-40 m-auto rounded object-contain sm:col-span-1 sm:w-6/12 sm:h-full"></div>
 
@@ -70,17 +70,23 @@
         </div>
 
         <!--Section-c-->
-        <div class="py-10 bg-indigo-800 xl:py-20">
-            <h1 class="text-2xl text-white font-semibold text-center pb-10 xl:text-4xl xl:pb-12">Invest in yourself</h1>
-            <div class="sm:grid sm:grid-cols-2">
+        <div class="py-10 xl:py-20 bg-gray-100">
+            <h1 class="text-2xl font-semibold text-center pb-10 xl:text-4xl xl:pb-12">Invest in yourself</h1>
+            <div class="sm:flex justify-center">
+                
                 <a href="#" class="hover:-translate-y-1 ease-in-out transform transition">
-                    <div class="border border-black border-solid w-11/12 m-auto bg-indigo-900 text-white rounded-3xl ">
 
-                        <div class="grid grid-cols-2 place-items-center">
-                            <h2 class="font-medium text-xl pt-5 xl:text-3xl">Premium</h2>
-                            <h2 class="font-medium text-xl pt-5 xl:text-3xl">&#8377 82,000</h2>
+                    <div class="border border-gray-100 border-solid w-11/12 m-auto rounded shadow-2xl bg-white">
+
+                        <div class="pb-5 rounded-t">
+                            <h2 class="font-medium text-xl pt-5 xl:text-3xl text-center">Premium</h2>
+                            <h2 class="font-medium text-xl pt-5 xl:text-3xl text-center">&#8377 82,000</h2>
+                            <button type="submit"
+                                class="m-auto px-7 py-3 rounded-md text-xl text-gray-100 font-medium mt-3 block bg-blue-900">Choose
+                                Advanced</button>
                         </div>
-                        <ul class="list-disc list-inside py-10 xl:text-2xl">
+                        <hr>
+                        <ul class="list-disc list-inside py-10 xl:text-2xl bg-blue-900 text-white rounded-b">
                             <li class="ml-4">Step by Step course content Assignments</li>
                             <li class="ml-4">Projects</li>
                             <li class="ml-4">Github student developer pack</li>
@@ -96,12 +102,16 @@
 
                 <a class="hover:-translate-y-1 ease-in-out transform transition " href="#">
                     <div
-                        class="bg-indigo-900 border border-black border-solid w-11/12 m-auto mt-10 rounded-3xl text-white sm:mt-0">
-                        <div class="grid grid-cols-2">
+                        class="bg-white border border-gray border-solid w-11/12 m-auto mt-10 rounded sm:mt-0 shadow-2xl">
+                        <div class="pb-5">
                             <h2 class="text-center font-medium text-xl pt-5 xl:text-3xl">Standard</h2>
                             <h2 class="text-center font-medium text-xl pt-5 xl:text-3xl">&#8377 40,000</h2>
+                            <button type="submit"
+                                class="m-auto px-10 py-3 rounded-md text-xl text-white font-medium mt-3 block bg-blue-900 ">Choose
+                                Basic</button>
                         </div>
-                        <ul class="list-disc list-inside py-10 xl:text-2xl">
+                        <hr>
+                        <ul class="list-disc list-inside text-white bg-blue-900 py-10 xl:text-2xl rounded-b">
                             <li class="ml-4">Step by Step course content Assignments</li>
                             <li class="ml-4">Projects</li>
                             <li class="ml-4">Github student developer pack</li>
@@ -118,13 +128,13 @@
             </a>
         </div>
         <!--Section-d-->
-        <div class="bg-indigo-900 text-white h-auto box-border py-20 xl:py-28">
+        <div class="bg-gray-200 text-w h-auto box-border py-20 xl:py-28">
             <h1 class="text-2xl pb-5 font-semibold text-center xl:text-3xl xl:pb-10">Still have doubts?</h1>
             <p class="font-medium text-center px-5 xl:text-2xl xl:pb-10">Try our step-by-step full stack web development
                 course.</p>
             <div class="text-center mt-8 xl:text-xl">
                 <p><a href="#"
-                        class="bg-white text-indigo-800 px-4 py-2 rounded-md hover:bg-gray-300 xl:px-6 xl:py-4">Sign
+                        class="bg-blue-900 text-white px-4 py-2 rounded-md hover:bg-blue-800 xl:px-6 xl:py-4">Sign
                         Up for free!</a></p>
             </div>
         </div>
@@ -143,11 +153,11 @@
             <div class="h-auto bg-black text-white grid grid-cols-2 place-items-center mt-10">
                 <ul class="col-span-1 xl:text-xl">
                     <li><a href="#">Home</a></li>
-                        <li><a href="#">Course Details</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Pricing</a> </li>
-                        <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Course Details</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Pricing</a> </li>
+                    <li><a href="#">FAQs</a></li>
                 </ul>
 
                 <ul class="xl:text-xl">
