@@ -16,7 +16,7 @@ A responsive landing page for a learning organisation.
 ![image](https://user-images.githubusercontent.com/47892550/129440085-7c3a83db-f53e-4595-9412-5110d2b5208a.png)
 
 # Download and Installation
-- Clone the repo: `$ git clone git@github.com:mdinsaf07/MovieJunkie.git`
+- Clone the repo: `$ git clone git@github.com:mdinsaf07/hopCampus.git`
 - Open the repo using Virtual Studio Code.
 - Run the code via live server.
 
