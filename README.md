@@ -26,5 +26,5 @@ A responsive landing page for a learning organisation.
 
 # Credits
  - Thanks to [Traversy media](https://www.youtube.com/user/TechGuyWeb) and [NetNinja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) for their excellent learning materials.
-- hopCampus is done as a part of my Front end curriculam at Aekam Labs, Coimbatore.
+- hopCampus is done as a part of my Front end curriculum at Aekam Labs, Coimbatore.
   
